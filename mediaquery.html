@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            border: 10px solid green;
+            font-size: 60px;
+        }
+
+        /*min-width : 화면크기가 최소 800px일 때(800px보다 클 때) 적용됨*/
+        /*max-width : 화면크기가 최대 800px일 때(800px보다 작을 때) 적용됨*/
+        @media(max-width: 800px) {
+         div {
+            display: none;
+         }
+        }
+    </style>
+</head>
+<body>
+    <div>
+        Responsive
+    </div>
+</body>
+</html>
